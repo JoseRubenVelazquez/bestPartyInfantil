@@ -283,13 +283,44 @@ footer{
     }
     .efecto{
         position: relative;
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         margin: auto;
+    }
+    .efecto .cara{
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .efecto .cara span{
+        width: 100%;
+        height: 100%;
+        transition: .5s;
+    }
+    .efecto .cara1 span{
+        background-image: url(../images/sebas.jpg);
+        background-size: cover;
+        background-size: 350px 350px;
+        background-repeat: no-repeat;
+        transform-origin: top;
+    }
+    .efecto:hover .cara1 span{
+        transform: rotateX(90deg) translateY(-50%);
+    }
+    .efecto .cara2 span{
+        background-image: url(../images/siete.jpg);
+        background-size: cover;
+        background-size: 350px 350px;
+        background-repeat: no-repeat;
+        transform-origin: bottom;
+        transform: rotateX(90deg) translateY(50%);
     }
     .efecto:hover .cara2 span{
         transform: rotateX(0deg) translateY(0);
@@ -299,17 +330,18 @@ footer{
         transition-delay: 0s;
     }
     .efecto .cara span:nth-child(2){
-        background-position-x: -80px;
+        background-position-x: -88px;
         transition-delay: .1s;
     }
     .efecto .cara span:nth-child(3){
-        background-position-x: -160px;
+        background-position-x: -176px;
         transition-delay: .2s;
     }
     .efecto .cara span:nth-child(4){
-        background-position-x: -240px;
+        background-position-x: -264px;
         transition-delay: .3s;
     }
+   
     .gallery {
         --s: 100px; /* control the size */
         --g: 10px;  /* control the gap */
@@ -320,7 +352,7 @@ footer{
     
       }
       .gall{
-        margin: -120px auto;
+        margin: -170px auto;
       }
       .img3{
         position: relative;
@@ -343,6 +375,10 @@ footer{
         margin: auto;
         margin-bottom: 10px; 
         padding: 0 auto;
+    }
+    .img4{
+        width: 90px;
+        margin-left: 180px;
     }
     /*.timer{
         display: inline-block;
