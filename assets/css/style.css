@@ -283,8 +283,8 @@ footer{
     }
     .efecto{
         position: relative;
-        width: 330px;
-        height: 330px;
+        width: 340px;
+        height: 340px;
         top: 0;
         left: 0;
         bottom: 0;
@@ -307,7 +307,7 @@ footer{
     .efecto .cara1 span{
         background-image: url(../images/sebas.jpg);
         background-size: cover;
-        background-size: 330px 330px;
+        background-size: 340px 340px;
         background-repeat: no-repeat;
         transform-origin: top;
     }
@@ -317,7 +317,7 @@ footer{
     .efecto .cara2 span{
         background-image: url(../images/siete.jpg);
         background-size: cover;
-        background-size: 330px 330px;
+        background-size: 340px 340px;
         background-repeat: no-repeat;
         transform-origin: bottom;
         transform: rotateX(90deg) translateY(50%);
