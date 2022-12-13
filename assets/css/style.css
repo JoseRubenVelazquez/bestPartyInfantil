@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Dancing Script', cursive;
     box-sizing: border-box;
     background-size: contain;
 }
@@ -25,16 +25,18 @@ body{
     margin-top: -220px;
 }
 h1{
-    font-size: 40px;
+    font-size: 60px;
     height: 220px;
-    color: white;
+    color: white;font-weight: bold;
+    letter-spacing: 1px;
 }
 /*seccion 2*/
 h2{
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
     color: white;
+    font-weight: 500;
 }
 .img2{
     border-radius: 50%;
@@ -155,15 +157,15 @@ h2{
   .gallery > img:nth-child(6) {--_x: calc( 50% + .5*var(--g))}
 
   .btn{
-    width: 200px;
+    width: 150px;
     height: 40px;
     border: 2px solid;
     border-color: #fff;
     border-radius: 10px;
-    letter-spacing: 7px;
-    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 500;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -187,15 +189,15 @@ h2{
 
 /*Confirmar evento*/
 .confirm{
-    width: 230px;
+    width: 180px;
     height: 40px;
     border: 2px solid;
     border-color: #fff;
     border-radius: 10px;
-    letter-spacing: 7px;
-    font-weight: 700;
+    letter-spacing: 1px;
+    font-weight: 500;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
     margin: auto;
     margin-bottom: 10px; 
@@ -205,7 +207,7 @@ h2{
     cursor: pointer;
     border-color: #000;
     translate: 1px;
-    font-size: 20px;
+    font-size: 22px;
     color: #000;
     text-decoration: none;
 }
@@ -234,6 +236,31 @@ a:hover{
     display: block;
     position: absolute;
 }
+
+/*Temporizador*/
+.timer{
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    text-align: center;
+    height: 100px;
+  }
+  .countdown div{
+    float: left;
+    padding: 10px;
+    color: #fff;
+    font-weight: 500; 
+    height: 100px; 
+  }
+  .countdown p{
+      width: auto;
+      font-weight: bolder;
+      font-size: 50px;
+  }
+
 /*Footer*/
 footer{
     width: 100%;
@@ -277,9 +304,10 @@ footer{
 /*responsive*/
 @media(min-width: 320px) and (max-width: 650px){
     h1{
-        font-size: 30px;
+        font-size: 50px;
         height: 220px;
         color: white;
+        font-weight: bold;
     }
     .efecto{
         position: relative;
@@ -352,7 +380,7 @@ footer{
     
       }
       .gall{
-        margin: -170px auto;
+        margin: -120px auto;
       }
       .img3{
         position: relative;
@@ -362,15 +390,15 @@ footer{
         margin-top: -40px;
     }
     .confirm{
-        width: 200px;
+        width: 150px;
         height: 40px;
         border: 2px solid;
         border-color: #fff;
         border-radius: 10px;
-        letter-spacing: 3px;
-        font-weight: 700;
+        letter-spacing: 1x;
+        font-weight: 500;
         cursor: pointer;
-        font-size: 18px;
+        font-size: 22px;
         color: #fff;
         margin: auto;
         margin-bottom: 10px; 
@@ -380,23 +408,27 @@ footer{
         width: 90px;
         margin-left: 177px;
     }
-    /*.timer{
+    
+    .timer{
         display: inline-block;
-        padding: 10px;
+        margin: 40px 80px 0 80px;
         color: #000;
         font-size: 20px;
-        position: absolute;
-        bottom: 0px;
-        left: 90px;
-        top: 600px;
+        position: relative;
+        bottom: 30px;
         text-align: center;
+        height: 100px;
+      }
+      .countdown div{
+        float: left;
+        padding: 10px;
+        color: #fff;
+        font-weight: 500; 
+        height: 100px; 
       }
       .countdown p{
-        width: auto;
-        font-weight: bolder;
-        font-size: 20px;
-    }
-    .cards{
-        height: 600px;
-    }*/
+          width: auto;
+          font-weight: 500;
+          font-size: 35px;
+      }
     }
