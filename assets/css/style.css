@@ -304,7 +304,7 @@ footer{
 /*responsive*/
 @media(min-width: 320px) and (max-width: 650px){
     h1{
-        font-size: 50px;
+        font-size: 40px;
         height: 220px;
         color: white;
         font-weight: bold;
@@ -345,7 +345,7 @@ footer{
     .efecto .cara2 span{
         background-image: url(../images/siete.jpg);
         background-size: cover;
-        background-size: 345px 345px;
+        background-size: 340px 340px;
         background-repeat: no-repeat;
         transform-origin: bottom;
         transform: rotateX(90deg) translateY(50%);
@@ -358,15 +358,15 @@ footer{
         transition-delay: 0s;
     }
     .efecto .cara span:nth-child(2){
-        background-position-x: -88px;
+        background-position-x: -85px;
         transition-delay: .1s;
     }
     .efecto .cara span:nth-child(3){
-        background-position-x: -176px;
+        background-position-x: -170px;
         transition-delay: .2s;
     }
     .efecto .cara span:nth-child(4){
-        background-position-x: -264px;
+        background-position-x: -250px;
         transition-delay: .3s;
     }
    
@@ -380,7 +380,7 @@ footer{
     
       }
       .gall{
-        margin: -120px auto;
+        margin: -130px auto;
       }
       .img3{
         position: relative;
@@ -411,7 +411,7 @@ footer{
     
     .timer{
         display: inline-block;
-        margin: 40px 80px 0 80px;
+        margin: 40px 50px 0 50px;
         color: #000;
         font-size: 20px;
         position: relative;
