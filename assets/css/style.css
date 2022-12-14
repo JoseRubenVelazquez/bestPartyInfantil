@@ -366,7 +366,7 @@ footer{
         transition-delay: .2s;
     }
     .efecto .cara span:nth-child(4){
-        background-position-x: -250px;
+        background-position-x: -255px;
         transition-delay: .3s;
     }
    
@@ -380,7 +380,7 @@ footer{
     
       }
       .gall{
-        margin: -130px auto;
+        margin: -140px auto;
       }
       .img3{
         position: relative;
@@ -406,7 +406,7 @@ footer{
     }
     .img4{
         width: 90px;
-        margin-left: 177px;
+        margin-left: 150px;
     }
     
     .timer{
