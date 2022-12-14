@@ -390,7 +390,7 @@ footer{
         margin-top: -40px;
     }
     .confirm{
-        width: 150px;
+        width: 160px;
         height: 40px;
         border: 2px solid;
         border-color: #fff;
@@ -406,12 +406,12 @@ footer{
     }
     .img4{
         width: 90px;
-        margin-left: 150px;
+        margin-left: 155px;
     }
     
     .timer{
         display: inline-block;
-        margin: 40px 50px 0 50px;
+        margin: 40px 35px 0 50px;
         color: #000;
         font-size: 20px;
         position: relative;
