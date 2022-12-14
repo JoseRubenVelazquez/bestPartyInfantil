@@ -411,7 +411,7 @@ footer{
     
     .timer{
         display: inline-block;
-        margin: 40px 25px 0 50px;
+        margin: 40px 25px 0 25px;
         color: #000;
         font-size: 20px;
         position: relative;
