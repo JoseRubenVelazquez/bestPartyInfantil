@@ -106,6 +106,12 @@ h2{
     background-position-x: -300px;
     transition-delay: .3s;
 }
+p{
+    margin: 10px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
 
 /*Parte 2*/
 .img2{
