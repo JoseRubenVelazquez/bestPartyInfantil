@@ -243,6 +243,13 @@ a:hover{
     display: block;
     position: absolute;
 }
+.img5{
+    border-radius: 50%;
+    height: 200px;
+    width: 150px;
+    display: block;
+    margin: 30px auto;
+}
 
 /*Temporizador*/
 .faltan{
